@@ -31,12 +31,12 @@ main {
 }
 
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px 20px;
     width: 100%;
     max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .text-section {
@@ -45,10 +45,16 @@ main {
 }
 
 .hero h1, .hero h2 {
-    margin-left: 50px;
+    margin-left: 67px;
+    margin-right: 59px;
+    width: 589px;
+    height: 150px;
+    text-align: left;
+    margin-top: 20px;
 }
 
 .hero h1 {
+    margin-top: 80px;
     font-size: 48px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.8);
@@ -58,15 +64,14 @@ main {
     font-size: 36px;
     font-weight: 600;
     color: #fff;
-    margin-top: 10px;
+
 }
 
-.actions {
+.actions{
     display: flex;
     flex-direction: row;
-    gap: 20px;
     align-items: center;
-    justify-content: flex-end;
+    
 }
 
 .file-input {
@@ -75,16 +80,17 @@ main {
 
 .custom-file-upload {
     padding: 15px 30px;
-    background-color: #ffdd00;
+    background: linear-gradient(45deg, #ff007f, #ffdd00);
     border-radius: 50px;
     color: #000;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-right: 20px;
 }
 
 .custom-file-upload:hover {
-    background-color: #ff007f;
+    background: linear-gradient(45deg, #ffdd00, #ff007f);
     color: #fff;
 }
 
