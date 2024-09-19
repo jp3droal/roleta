@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header .logo img {
+    width: 220px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.text-section {
+    flex: 1;
+    text-align: left;
+}
+
+.hero h1, .hero h2 {
+    margin-left: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.file-input {
+    display: none;
+}
+
+.custom-file-upload {
+    padding: 15px 30px;
+    background-color: #ffdd00;
+    border-radius: 50px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-file-upload:hover {
+    background-color: #ff007f;
+    color: #fff;
+}
+
+.button {
+    padding: 15px 30px;
+    background: linear-gradient(45deg, #ff007f, #ffdd00);
+    color: #000;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: linear-gradient(45deg, #ffdd00, #ff007f);
+    color: #fff;
+}
